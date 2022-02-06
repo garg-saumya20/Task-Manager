@@ -1,0 +1,69 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+.container {
+  width: 100%;
+  height: 100vh;
+  background-color: darkgray;
+}
+.container-1 {
+  display: flex;
+}
+.inp-tag {
+  width: 100%;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  padding: 15px;
+  font-size: 1.3rem;
+  border: 2px solid black;
+  border-radius: 5px;
+  outline: none;
+}
+input[type="checkbox"]:checked {
+  box-shadow: 0 0 0 3px hotpink;
+}
+.btn {
+  cursor: pointer;
+}
+.plus-btn {
+  border: 2px solid black;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  width: 60px;
+  margin-left: 0px;
+  margin-right: 0px;
+  color: red;
+  background-color: #323539;
+}
+.clear-all-btn {
+  margin-top: 10px;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 2px solid black;
+  border-radius: 5px;
+  background-color: #323539;
+  color: red;
+}
+.icon-clr {
+  text-align: center;
+}
+.clrt {
+  text-align: center;
+  font-weight: bold;
+}
+.clr-t {
+  text-align: center;
+  color: red;
+  font-weight: bold;
+}
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: darkgray;
+  color: black;
+  font-weight: bold;
+  text-align: center;
+}
